@@ -9,7 +9,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Хэштеги */
 .top-hashtags-bar {
   background-color: #779283;
   color: white;
@@ -41,7 +40,6 @@ body {
   }
 }
 
-/* Навигация */
 .top-nav-bar {
   display: flex;
   justify-content: space-between;
@@ -126,7 +124,6 @@ body {
   cursor: pointer;
 }
 
-/* Поиск */
 .searchbar-wrapper {
   display: flex;
   flex-direction: column;
@@ -340,7 +337,6 @@ body {
     height: auto;
   }
 
-  /* Правая часть — все иконки в линию */
   .nav-right {
     display: flex;
     align-items: center;
@@ -354,7 +350,6 @@ body {
     height: 22px;
   }
 
-  /* Удаляем текстовые подписи при мобильной ширине */
   .nav-link,
   .nav-login,
   .nav-location,
@@ -366,7 +361,6 @@ body {
     display: none;
   }
 
-  /* Поиск */
   .searchbar-wrapper {
     width: 100%;
     padding: 10px;
@@ -389,7 +383,6 @@ body {
     left: 12px;
   }
 
-  /* Хэштеги */
   .top-hashtags-bar {
     font-size: 14px;
     height: 30px;
